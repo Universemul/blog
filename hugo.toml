@@ -1,0 +1,79 @@
+baseURL = "https://universemul.github.io/blog"
+languageCode = "fr"
+title = "David Barthelemy"
+theme = "typo"
+enableRobotsTXT = true
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+description = "david barthelemy"
+
+theme = 'dark'
+colorPalette = 'default'
+hideHeader = false
+
+homeIntroTitle = 'Hello!'
+homeIntroContent = """
+Bienvenue sur mon petit coin de notes.
+
+Ici, je parle de projets perso en [tech](/blog/dev) et des problèmes que je rencontre en chemin.
+Je partage aussi [mes lectures et mes impressions sur les livres](/blog/read) que je lis.
+
+✦
+Tu découvriras [Welshie](/blog/welshie), l’application que je développe,
+et parfois des extraits ou réflexions autour du [bouquin que j’écris](/blog/writing).
+
+✧
+Ce n’est pas un flux incessant de contenus,
+mais un espace pour noter ce qui me tient à cœur, au rythme qui me convient.
+
+❀
+Si suivre mes projets, mes lectures ou mes écrits t’intéresse,
+tu es le bienvenu.
+"""
+
+singleDateFormat = '2 Jan 2006'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '02 Jan 2006'
+
+# Footer
+showFooter = false
+
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "~"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/Universemul"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/davidbarthelemy28/"
+
+[[params.menu]]
+  name = "home"
+  url = "/blog"
+[[params.menu]]
+  name = "writing"
+  url = "/blog/writing/"
+[[params.menu]]
+  name = "welshie"
+  url = "/blog/welshie"
+[[params.menu]]
+  name = "dev"
+  url = "/blog/dev"
+[[params.menu]]
+  name = "read"
+  url = "/blog/read"
+
+[markup]
+[markup.highlight]
+style = 'bw'
+
