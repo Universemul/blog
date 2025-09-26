@@ -58,19 +58,19 @@ name = "linkedin"
 url = "https://www.linkedin.com/in/davidbarthelemy28/"
 
 [[params.menu]]
-  name = "home"
+  name = "Home"
   url = "/blog"
 [[params.menu]]
-  name = "writing"
+  name = "Ecriture"
   url = "/blog/writing/"
 [[params.menu]]
-  name = "welshie"
+  name = "Welshie"
   url = "/blog/welshie"
 [[params.menu]]
-  name = "dev"
+  name = "Dev"
   url = "/blog/dev"
 [[params.menu]]
-  name = "read"
+  name = "Lecture"
   url = "/blog/read"
 
 [markup]

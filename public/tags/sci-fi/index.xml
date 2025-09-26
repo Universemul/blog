@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sci-Fi on David Barthelemy</title>
+    <link>http://localhost:1313/blog/tags/sci-fi/</link>
+    <description>Recent content in Sci-Fi on David Barthelemy</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 23 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/sci-fi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Au Dela Du Silence</title>
+      <link>http://localhost:1313/blog/writing/au_dela_du_silence/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/writing/au_dela_du_silence/</guid>
+      <description>Une nouvelle de science-fiction qui parle d&amp;rsquo;une expérience de passage d&amp;rsquo;un trou noir pour sauver l&amp;rsquo;humanité</description>
+    </item>
+  </channel>
+</rss>

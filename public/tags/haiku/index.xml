@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haiku on David Barthelemy</title>
+    <link>http://localhost:1313/blog/tags/haiku/</link>
+    <description>Recent content in Haiku on David Barthelemy</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/haiku/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Haïku de mon voyage au Japon</title>
+      <link>http://localhost:1313/blog/writing/haiku_japon/</link>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/writing/haiku_japon/</guid>
+      <description>Un cycle de 7 haïkus qui presente mon voyage au Japon de Septembre 2025</description>
+    </item>
+  </channel>
+</rss>

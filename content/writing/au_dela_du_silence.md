@@ -1,7 +1,12 @@
 +++
-date = '2025-09-23T23:36:25+02:00'
-draft = false
+date = '2025-09-23'
 title = 'Au Dela Du Silence'
+summary = "Une nouvelle de science-fiction qui parle d'une expérience de passage d'un trou noir pour sauver l'humanité"
+readTime = true
+autonumber = true
+math = true
+tags = ["nouvelle", "sci-fi"]
+showTags = false
 +++
 
 # Les ombres du passé
