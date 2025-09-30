@@ -1,0 +1,119 @@
+<style>
+    .movie-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 0.5rem;
+        gap: 1rem;
+    }
+
+    .movie-title {
+        margin: 0;
+        flex: 1;
+        font-size: 20px;
+        color: #718054;
+        min-width: 0;
+    }
+
+    .movie-title a {
+        text-decoration: none;
+        color: #B2C78B;
+        word-break: break-word;
+    }
+
+    .movie-title a:hover {
+        text-decoration: underline;
+    }
+
+    .movie-date {
+        font-size: 14px;
+        color: #ccc;
+        font-family: 'Source Serif 4', serif;
+        flex-shrink: 0;
+        align-self: flex-end;
+    }
+
+    .movie-comment {
+        margin-top: 0.5rem;
+        color: #ccc;
+        font-family: 'Source Serif 4', serif;
+        line-height: 1.6;
+        border-left: 1px solid #999;
+        padding-left: 20px;
+        font-style: italic;
+        overflow: hidden;
+    }
+
+    .movie-poster {
+        float: left;
+        margin: 0 1rem 1rem 0;
+    }
+
+    .movie-poster img {
+        max-width: 80px;
+        height: auto;
+        border-radius: 3px;
+    }
+
+    @media (max-width: 600px) {
+        .movie-header {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .movie-date {
+            margin-top: 0.5rem;
+            align-self: flex-end;
+        }
+    }
+
+    .text-yellow-500 {
+        color: #f5c518;
+    }
+
+    .text-gray-300 {
+        color: #ddd;
+    }
+
+</style>
+<div class="post-line">
+    {{ $dateFormat := .Site.Params.listDateFormat | default "2 Jan 2006" }}
+    {{ $author := .Params.author }}
+    {{ $rating := .Params.rating }}
+    {{ $comment := .Params.comment }}
+    {{ $inProgress := .Params.inProgress }}
+    <div style="flex: 1">
+
+        <div class="movie-header">
+            <h4 class="movie-title">
+                <a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ .Params.title }}</a>
+            </h4>
+            <span class="movie-date">{{ .Date | time.Format $dateFormat }}</span>
+        </div>
+
+        <div class="movie-poster">
+            <img src="{{ .Params.cover }}" alt="{{ $.Title }}" class="w-full h-full object-cover rounded shadow">
+        </div>
+        {{- if $author }}
+            {{ $author }}
+        {{- end -}}
+        {{- if $rating }}
+            <div class="my-2">
+                {{ range seq 1 5 }}
+                    {{ if le . $rating }}
+                    <span class="text-yellow-500">★</span>
+                    {{ else }}
+                    <span class="text-gray-300">★</span>
+                    {{ end }}
+                {{ end }}
+            </div>
+        {{- end -}}
+        <div class="movie-comment">
+            {{- if $comment }}
+                {{ $comment }}
+            {{- else if $inProgress -}}
+                En cours de lecture
+            {{- end -}}
+        </div>
+    </div>
+</div>
