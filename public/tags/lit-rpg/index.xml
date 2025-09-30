@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lit-Rpg on David Barthelemy</title>
+    <link>http://localhost:1313/blog/tags/lit-rpg/</link>
+    <description>Recent content in Lit-Rpg on David Barthelemy</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/lit-rpg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dungeon Crawler Carl</title>
+      <link>http://localhost:1313/blog/read/dungeon_crawler_carl/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/read/dungeon_crawler_carl/</guid>
+      <description>Série de LitRPG où l’on suit un homme et le chat de son ex dans un jeu télévisé sadique à l’échelle de l’univers</description>
+    </item>
+  </channel>
+</rss>

@@ -6,8 +6,15 @@
     <description>Recent content in Lecture on David Barthelemy</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/read/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fils-des-brumes</title>
+      <link>http://localhost:1313/blog/read/fils-de-brume/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/read/fils-de-brume/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Dungeon Crawler Carl</title>
       <link>http://localhost:1313/blog/read/dungeon_crawler_carl/</link>
