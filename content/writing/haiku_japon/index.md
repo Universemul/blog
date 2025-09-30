@@ -12,7 +12,7 @@ showTags = false
 Je suis parti au Japon avec ma copine pendant deux semaines en September 2025. C'était la deuxième fois cette année que je visitais ce pays. La première fois était en janvier avec 2 amis à Hokkaido.
 J'ai decouvert les haïkus durant des sessions d'écriture avec [Stefan](https://stefanmiko.com/), un ami de longue date.  
 
-Mon retour de ce second voyage était donc le bon moment pour poser sur papier mes sentiments par rapport à ce fabuleux pays et ce style convenait parfaitement. Voici donc un cycle qui symbolise l'ensemble de mon voyage.  
+Mon retour de ce second voyage était donc le bon moment pour poser sur papier mes sentiments par rapport à ce fabuleux pays et ce style convenait parfaitement. Voici donc un cycle qui symbolise l'ensemble de mon voyage, avec en dernier Haiku mes retrouvailles avec Saya.
 
 
 ###### 🎌 Notre arrivée au Japon
@@ -72,9 +72,11 @@ Mon retour de ce second voyage était donc le bon moment pour poser sur papier m
 ![Departure](./end.jpg)
 
 
-
-
-
+##### Saya
+  
+> Au soleil couché  
+> Sa toison d'or apparait  
+> Douceur retrouvée  
 
 
 
