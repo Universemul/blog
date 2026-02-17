@@ -6,20 +6,69 @@
     <description>Recent content in Lecture on David Barthelemy</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/read/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Fils-des-brumes</title>
-      <link>http://localhost:1313/blog/read/fils-de-brume/</link>
-      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/read/fils-de-brume/</guid>
+      <title>Cailloux dans le ciel</title>
+      <link>http://localhost:1313/blog/read/azimov-cailloux-dans-le-ciel/</link>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/read/azimov-cailloux-dans-le-ciel/</guid>
       <description></description>
     </item>
     <item>
-      <title>Dungeon Crawler Carl</title>
-      <link>http://localhost:1313/blog/read/dungeon_crawler_carl/</link>
+      <title>Fils-des-brumes Tome 3</title>
+      <link>http://localhost:1313/blog/read/fils-de-brume-3/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/read/fils-de-brume-3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dungeon Crawler Carl Tome 4</title>
+      <link>http://localhost:1313/blog/read/dungeon-crawler-carl-4/</link>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/read/dungeon-crawler-carl-4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fils-des-brumes Tome 2</title>
+      <link>http://localhost:1313/blog/read/fils-de-brume-2/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/read/fils-de-brume-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dungeon Crawler Carl Tome 3</title>
+      <link>http://localhost:1313/blog/read/dungeon-crawler-carl-3/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/read/dungeon-crawler-carl-3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cadavre exquis</title>
+      <link>http://localhost:1313/blog/read/cadavre_exquis/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/read/cadavre_exquis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dungeon Crawler Carl Tome 2</title>
+      <link>http://localhost:1313/blog/read/dungeon-crawler-carl-2/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/read/dungeon-crawler-carl-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fils-des-brumes Tome 1</title>
+      <link>http://localhost:1313/blog/read/fils-de-brume-1/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/read/fils-de-brume-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dungeon Crawler Carl Tome 1</title>
+      <link>http://localhost:1313/blog/read/dungeon-crawler-carl-1/</link>
       <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/read/dungeon_crawler_carl/</guid>
+      <guid>http://localhost:1313/blog/read/dungeon-crawler-carl-1/</guid>
       <description></description>
     </item>
   </channel>
