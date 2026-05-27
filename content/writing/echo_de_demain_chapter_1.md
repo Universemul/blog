@@ -1,6 +1,6 @@
 +++
 date = '2026-05-26'
-title = 'L'écho de demain'
+title = "L'écho de demain: Chapitre 1"
 summary = "L'humanité a capte un signal parfait venu de l'espace. Un battement. Tic. Tac"
 readTime = true
 autonumber = true
@@ -9,7 +9,7 @@ tags = ["nouvelle", "sci-fi", "thriller"]
 showTags = false
 +++
 
-# Chapitre 1: Le bruit de fond
+# Le bruit de fond
 
 L'entropie. Cette loi implacable qui régit l'univers et nos vies. De l'ordre naît le chaos.  
 Les étoiles s'agrègent dans des spasmes gravitationnels et meurent dans des agonies de lumière. La matière s'entrechoque, les galaxies se déchirent, les planètes se font percuter par des astéroïdes annihilant la vie dans la plus aveugle indifférence. Rien n'est jamais véritablement droit, rien n'est jamais véritablement pur. Le cosmos bégaie, trébuche et s'use.
