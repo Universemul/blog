@@ -2,55 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/read/fils-de-brume-2/</loc>
+    <loc>https://universemul.github.io/blog/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://universemul.github.io/blog/writing/echo_de_demain_chapter_1/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://universemul.github.io/blog/tags/nouvelle/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://universemul.github.io/blog/tags/sci-fi/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://universemul.github.io/blog/tags/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://universemul.github.io/blog/tags/thriller/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://universemul.github.io/blog/read/la_saga_de_la_nuit_t1/</loc>
+    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://universemul.github.io/blog/read/azimov-cailloux-dans-le-ciel/</loc>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://universemul.github.io/blog/read/fils-de-brume-3/</loc>
+    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://universemul.github.io/blog/read/dungeon-crawler-carl-4/</loc>
+    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://universemul.github.io/blog/read/fils-de-brume-2/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+    <loc>https://universemul.github.io/blog/read/dungeon-crawler-carl-3/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/read/cadavre_exquis/</loc>
+    <loc>https://universemul.github.io/blog/read/cadavre_exquis/</loc>
     <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/read/fils-de-brume-1/</loc>
+    <loc>https://universemul.github.io/blog/read/dungeon-crawler-carl-2/</loc>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://universemul.github.io/blog/read/fils-de-brume-1/</loc>
     <lastmod>2025-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/read/dungeon_crawler_carl/</loc>
+    <loc>https://universemul.github.io/blog/read/dungeon-crawler-carl-1/</loc>
     <lastmod>2025-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/haiku/</loc>
+    <loc>https://universemul.github.io/blog/tags/haiku/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/writing/haiku_japon/</loc>
+    <loc>https://universemul.github.io/blog/writing/haiku_japon/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/japon/</loc>
+    <loc>https://universemul.github.io/blog/tags/japon/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
+    <loc>https://universemul.github.io/blog/tags/voyage/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/voyage/</loc>
-    <lastmod>2025-09-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/read/</loc>
+    <loc>https://universemul.github.io/blog/read/</loc>
     <lastmod>2025-09-23T23:42:04+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/welshie/</loc>
+    <loc>https://universemul.github.io/blog/welshie/</loc>
     <lastmod>2025-09-23T23:42:04+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/writing/</loc>
+    <loc>https://universemul.github.io/blog/writing/</loc>
     <lastmod>2025-09-23T23:40:53+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/writing/au_dela_du_silence/</loc>
+    <loc>https://universemul.github.io/blog/writing/au_dela_du_silence/</loc>
     <lastmod>2025-09-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/nouvelle/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/sci-fi/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/read/fils-de-brume-3/</loc>
-    <lastmod>2025-01-30T00:00:00+00:00</lastmod>
   </url>
 </urlset>

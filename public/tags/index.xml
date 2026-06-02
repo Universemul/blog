@@ -2,45 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on David Barthelemy</title>
-    <link>http://localhost:1313/blog/tags/</link>
+    <link>https://universemul.github.io/blog/tags/</link>
     <description>Recent content in Tags on David Barthelemy</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Haiku</title>
-      <link>http://localhost:1313/blog/tags/haiku/</link>
-      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/haiku/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Japon</title>
-      <link>http://localhost:1313/blog/tags/japon/</link>
-      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/japon/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Voyage</title>
-      <link>http://localhost:1313/blog/tags/voyage/</link>
-      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/voyage/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://universemul.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nouvelle</title>
-      <link>http://localhost:1313/blog/tags/nouvelle/</link>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/nouvelle/</guid>
+      <link>https://universemul.github.io/blog/tags/nouvelle/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://universemul.github.io/blog/tags/nouvelle/</guid>
       <description></description>
     </item>
     <item>
       <title>Sci-Fi</title>
-      <link>http://localhost:1313/blog/tags/sci-fi/</link>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/sci-fi/</guid>
+      <link>https://universemul.github.io/blog/tags/sci-fi/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://universemul.github.io/blog/tags/sci-fi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thriller</title>
+      <link>https://universemul.github.io/blog/tags/thriller/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://universemul.github.io/blog/tags/thriller/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Haiku</title>
+      <link>https://universemul.github.io/blog/tags/haiku/</link>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://universemul.github.io/blog/tags/haiku/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Japon</title>
+      <link>https://universemul.github.io/blog/tags/japon/</link>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://universemul.github.io/blog/tags/japon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Voyage</title>
+      <link>https://universemul.github.io/blog/tags/voyage/</link>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://universemul.github.io/blog/tags/voyage/</guid>
       <description></description>
     </item>
   </channel>
