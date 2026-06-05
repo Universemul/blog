@@ -13,31 +13,27 @@ showTags = false
 
 Six heures pile, heure de bord. Horace ouvrit les yeux.
 
-Chaque matin était pour lui identique depuis le départ du *Prométhée*. Six heures du matin exactement. Pas une seconde de plus ou de moins. Trois secondes avant que son réveil lumineux ne se déclenche pour effectuer sa montée graduelle. Quelque part en lui, un petit mécanisme silencieux comptait les heures inconsciemment, avec une précision que son cerveau n'avait plus besoin de superviser.
+Chaque matin était pour lui identique depuis que le Prométhée s'était jeté dans le vide. Six heures du matin exactement. Pas une seconde de plus ou de moins. Trois secondes avant que son réveil lumineux ne se déclenche pour effectuer sa montée graduelle. L'alarme de sécurité n'avait pas sonné depuis la fin de son adolescence, mais il continuait de la programmer, chaque soir, par principe. 
 
-Même s'il avait arrêté d'utiliser des alarmes depuis la fin de son adolescence, il en avait programmé une par principe. Il savait que même l'implacable discipline à laquelle il s'était astreint ne suffisait pas toujours à écarter le danger.
+La cabine était plongée dans une aube artificielle, sans lune ni étoiles. Un phénomène céleste préfabriqué que seul rompait le clignotement vert d'un voyant de veille. Horace inspira lentement. L'air était neutre, recyclé, filtré un nombre incalculable de fois. Ni la terre, ni la pluie. Le néant n’avait aucune odeur. C'était logique, propre, immuable.  
 
-La cabine était plongée dans une aube artificielle, sans lune ni étoiles. Un phénomène céleste préfabriqué que seul rompait le clignotement vert d'un voyant de veille. L'odeur de l'air à l'intérieur était identique à celle d'hier. Neutre, recyclée, filtrée un nombre incalculable de fois au point de ne plus rien évoquer. Ni la terre, ni la pluie, rien. Au début du voyage, cette absence d'odeur l'avait dérangé ; à présent, il y trouvait une sorte de réconfort. Un point d'ancrage, un sentiment de propreté immuable. Le néant n’avait aucune odeur. C'était logique.
+Il attendit encore un moment avant de se lever.  
 
-Il allait attendre encore un moment avant de se lever. Pas avant son premier geste de la journée.
+Sur sa table de chevet, posée sur un petit socle en bois de noyer, se trouvait sa montre à gousset. Il avait emporté peu de choses personnelles, et cette montre avait été la première qu'il avait glissée dans son sac. Elle avait appartenu à son grand-père, puis à son père. Deux hommes que le temps avait rattrapés, comme tout le reste. La montre, elle, continuait de battre, alors qu'eux s'étaient tus.  
 
-Sur sa table de chevet, posée sur un petit socle en bois de noyer, se trouvait sa montre à gousset. Il avait emporté peu de choses personnelles, et cette montre avait été la première qu'il avait glissée dans son sac. Elle avait appartenu à son grand-père, puis à son père. Deux hommes que le temps avait rattrapés, comme tout le reste. Et elle continuait de battre, alors qu'eux s'étaient tus.
-
-C'était sûrement pour cela qu'Horace s'y était autant attaché : elle était la preuve qu'un mécanisme bien réglé pouvait survivre à ses maîtres. Il la prit avec deux doigts, comme on saisit un oisillon, la fit glisser dans le creux de sa paume, sentit le poids familier du boîtier d'argent, et tourna le remontoir.
+Il la prit avec deux doigts, comme on saisit un oisillon, la fit glisser dans le creux de sa paume, sentit le poids familier du boîtier d'argent, et tourna le remontoir.  
 
 > *Cric. Cric. Cric.*
 
-Il aimait la sensation du remontoir contre son pouce. Cette accroche à peine palpable, qui enclenchait mécaniquement des dizaines d’engrenages microscopiques parfaitement huilés.
+L'accroche était à peine palpable contre son pouce. C'était une résistance infime, presque secrète, mais elle chassait instantanément le vide de la cabine. Le geste enclenchait mécaniquement des dizaines d’engrenages microscopiques parfaitement huilés, lui offrant la seule promesse dont il avait besoin pour affronter la journée : celle d'une cause entraînant une conséquence sans la moindre marge d'erreur.  
 
 > *Cric. Cric. Cric.*
 
-C'était l’ordre parfait des choses. La machine d’abord, l’homme ensuite. Dès que la montre trottait, Horace pouvait se lever.
+ La machine d’abord, l’homme ensuite. Dès que la trotteuse s'anima, Horace posa un pied par terre.  
 
-Dans le silence de sa cabine, ses pensées glissèrent vers le but de leur voyage. À bord, quelques mois s'étaient écoulés depuis leur départ. Sur Terre, des dizaines d'années s'étaient envolées, mais il préférait ne pas s’y attarder. Les visages familiers qu’ils avaient quittés avaient vieilli, les enfants étaient devenus adultes, les vieillards étaient morts, tandis qu’eux flottaient dans une bulle arrachée au rythme du reste de l'humanité. 
+Dans le silence de sa cabine, tandis qu'il enfilait son uniforme, ses pensées glissèrent vers le but de leur voyage. À bord, quelques mois s'étaient écoulés. Sur Terre, quelques années s'étaient envolées. Les visages familiers qu’ils avaient quittés portaient de nouvelles rides, les jeunes enfants s'étaient mués en adolescents, tandis qu’eux flottaient dans une bulle arrachée au rythme du reste de l’humanité.  
 
-Cette situation aurait dû le troubler, mais elle l’apaisait au contraire. Le temps pouvait s'étirer, se contracter, se distordre, il n’en restait pas moins gouverné par des équations exactes et prévisibles. Ce n'était pas un désordre. C'était une règle. Une règle de plus dans la longue liste de celles qui tenaient le monde debout. Et les règles, Horace ne les avait jamais craintes, il les aimait.
-
-Il posa enfin un pied par terre.
+Cette situation aurait dû le troubler, mais elle l’apaisait au contraire. Le temps pouvait s'étirer, se contracter, se distordre, il n’en restait pas moins gouverné par des équations exactes et prévisibles. Ce n'était pas un désordre. C'était simplement une règle de plus dans la longue liste de celles qui tenaient le monde debout.   
 
 
 Dans la coursive, en chemin vers le Sanctuaire, il passa devant l'un des grands hublots de visualisation. Dehors, si ce mot avait encore un sens, l'univers n'était plus qu'une aberration chromatique : un tunnel de rayonnements bleutés à l'avant, de rougeoiements spectraux à l'arrière. À quatre-vingt-dix-neuf pour cent de la vitesse de la lumière, le vide n'avait plus d'heure, plus de saisons, plus de crépuscule. Le *Prométhée* ne naviguait plus ; il chutait vers l'avant. Horace détourna les yeux. Ces images le mettaient mal à l'aise, non par vertige, mais parce qu'elles ne se laissaient pas mesurer. Il préférait les couloirs, leurs angles droits, leur éclairage constant.
