@@ -2,10 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welshie on David Barthelemy</title>
-    <link>https://universemul.github.io/blog/welshie/</link>
+    <link>http://localhost:1313/blog/welshie/</link>
     <description>Recent content in Welshie on David Barthelemy</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 23 Sep 2025 23:42:04 +0200</lastBuildDate><atom:link href="https://universemul.github.io/blog/welshie/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/welshie/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
