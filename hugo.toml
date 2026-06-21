@@ -1,5 +1,5 @@
 baseURL = "https://universemul.github.io/blog"
-languageCode = "fr"
+locale = "fr"
 title = "David Barthelemy"
 theme = "typo"
 enableRobotsTXT = true
@@ -15,24 +15,7 @@ colorPalette = 'default'
 hideHeader = false
 
 homeIntroTitle = 'Hello!'
-homeIntroContent = """
-Bienvenue sur mon petit coin de notes.
-
-Ici, je parle de projets perso en [tech](/blog/dev) et des problèmes que je rencontre en chemin.
-Je partage aussi [mes lectures et mes impressions sur les livres](/blog/read) que je lis.
-
-✦
-Tu découvriras [Welshie](/blog/welshie), l’application que je développe,
-et parfois des extraits ou réflexions autour du [bouquin que j’écris](/blog/writing).
-
-✧
-Ce n’est pas un flux incessant de contenus,
-mais un espace pour noter ce qui me tient à cœur, au rythme qui me convient.
-
-❀
-Si suivre mes projets, mes lectures ou mes écrits t’intéresse,
-tu es le bienvenu.
-"""
+homeIntroContent = "Entre écriture de code, écriture d'histoires et astrophotographie, ce blog est mon espace d'expérimentation. J'y partage mes projets [dev](/blog/dev), mon parcours créatif entre [écrits](/blog/writing) et [lectures](/blog/read), ainsi que mes captures du ciel en [photo](/blog/photo)."
 
 singleDateFormat = '2 Jan 2006'
 
@@ -64,14 +47,14 @@ url = "https://www.linkedin.com/in/davidbarthelemy28/"
   name = "Ecriture"
   url = "/blog/writing/"
 [[params.menu]]
-  name = "Welshie"
-  url = "/blog/welshie"
-[[params.menu]]
   name = "Dev"
   url = "/blog/dev"
 [[params.menu]]
   name = "Lecture"
   url = "/blog/read"
+[[params.menu]]
+  name = "Photo"
+  url = "/blog/photo"
 
 [markup]
 [markup.highlight]
