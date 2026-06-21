@@ -55,6 +55,10 @@ url = "https://www.linkedin.com/in/davidbarthelemy28/"
 [[params.menu]]
   name = "Photo"
   url = "/blog/photo"
+[[params.menu]]
+  name = ".rss"
+  url = "/blog/index.xml"
+  newTab = true
 
 [markup]
 [markup.highlight]

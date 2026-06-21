@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Expo on David Barthelemy</title>
-    <link>https://universemul.github.io/blog/tags/expo/</link>
+    <link>http://localhost:1313/blog/tags/expo/</link>
     <description>Recent content in Expo on David Barthelemy</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://universemul.github.io/blog/tags/expo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/expo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>L&#39;architecture de Welshie : Code, Données et Ciel Étoilé</title>
-      <link>https://universemul.github.io/blog/dev/welshie-architecture/</link>
+      <title>L&#39;architecture de Welshie</title>
+      <link>http://localhost:1313/blog/dev/welshie-architecture/</link>
       <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://universemul.github.io/blog/dev/welshie-architecture/</guid>
-      <description>Présentation des choix techniques derrière Welshie, une application mobile de suivi de médias construite avec React Native/Expo, Django et Docker.</description>
+      <guid>http://localhost:1313/blog/dev/welshie-architecture/</guid>
+      <description>Présentation des choix techniques derrière Welshie, une application mobile de recommandations de films et de séries entre amis.</description>
     </item>
   </channel>
 </rss>

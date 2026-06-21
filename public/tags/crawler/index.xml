@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Crawler on David Barthelemy</title>
-    <link>https://universemul.github.io/blog/tags/crawler/</link>
+    <link>http://localhost:1313/blog/tags/crawler/</link>
     <description>Recent content in Crawler on David Barthelemy</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://universemul.github.io/blog/tags/crawler/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/crawler/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dans les coulisses du crawler TMDB de Welshie</title>
-      <link>https://universemul.github.io/blog/dev/welshie-tmdb-crawler/</link>
+      <link>http://localhost:1313/blog/dev/welshie-tmdb-crawler/</link>
       <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://universemul.github.io/blog/dev/welshie-tmdb-crawler/</guid>
+      <guid>http://localhost:1313/blog/dev/welshie-tmdb-crawler/</guid>
       <description>Exploration technique du crawler asynchrone développé en Python/Django pour importer efficacement des centaines de milliers de films et séries depuis TMDB.</description>
     </item>
   </channel>

@@ -2,136 +2,136 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://universemul.github.io/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2026-06-21T16:56:00+02:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/photo/</loc>
+    <loc>http://localhost:1313/blog/photo/</loc>
     <lastmod>2026-06-21T16:56:00+02:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/architecture/</loc>
+    <loc>http://localhost:1313/blog/tags/architecture/</loc>
     <lastmod>2026-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/asyncio/</loc>
+    <loc>http://localhost:1313/blog/tags/asyncio/</loc>
     <lastmod>2026-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/crawler/</loc>
+    <loc>http://localhost:1313/blog/tags/crawler/</loc>
     <lastmod>2026-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/dev/welshie-tmdb-crawler/</loc>
+    <loc>http://localhost:1313/blog/dev/welshie-tmdb-crawler/</loc>
     <lastmod>2026-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/django/</loc>
+    <loc>http://localhost:1313/blog/tags/django/</loc>
     <lastmod>2026-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/docker/</loc>
+    <loc>http://localhost:1313/blog/tags/docker/</loc>
     <lastmod>2026-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/expo/</loc>
+    <loc>http://localhost:1313/blog/tags/expo/</loc>
     <lastmod>2026-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/dev/welshie-architecture/</loc>
+    <loc>http://localhost:1313/blog/dev/welshie-architecture/</loc>
     <lastmod>2026-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/python/</loc>
+    <loc>http://localhost:1313/blog/tags/python/</loc>
     <lastmod>2026-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/react-native/</loc>
+    <loc>http://localhost:1313/blog/tags/react-native/</loc>
     <lastmod>2026-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/</loc>
+    <loc>http://localhost:1313/blog/tags/</loc>
     <lastmod>2026-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/tmdb/</loc>
+    <loc>http://localhost:1313/blog/tags/tmdb/</loc>
     <lastmod>2026-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/astrophotographie/</loc>
+    <loc>http://localhost:1313/blog/tags/astrophotographie/</loc>
     <lastmod>2026-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/ciel-profond/</loc>
+    <loc>http://localhost:1313/blog/tags/ciel-profond/</loc>
     <lastmod>2026-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/photo/lune-20-06-2026/</loc>
+    <loc>http://localhost:1313/blog/photo/lune-20-06-2026/</loc>
     <lastmod>2026-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/lune/</loc>
+    <loc>http://localhost:1313/blog/tags/lune/</loc>
     <lastmod>2026-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/photo/lune-19-06-2026/</loc>
+    <loc>http://localhost:1313/blog/photo/lune-19-06-2026/</loc>
     <lastmod>2026-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/writing/echo_de_demain_chapter_3/</loc>
+    <loc>http://localhost:1313/blog/writing/echo_de_demain_chapter_3/</loc>
     <lastmod>2026-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/nouvelle/</loc>
+    <loc>http://localhost:1313/blog/tags/nouvelle/</loc>
     <lastmod>2026-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/sci-fi/</loc>
+    <loc>http://localhost:1313/blog/tags/sci-fi/</loc>
     <lastmod>2026-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/thriller/</loc>
+    <loc>http://localhost:1313/blog/tags/thriller/</loc>
     <lastmod>2026-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/writing/echo_de_demain_chapter_2/</loc>
+    <loc>http://localhost:1313/blog/writing/echo_de_demain_chapter_2/</loc>
     <lastmod>2026-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/writing/echo_de_demain_chapter_1/</loc>
+    <loc>http://localhost:1313/blog/writing/echo_de_demain_chapter_1/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/read/la_saga_de_la_nuit_t1/</loc>
+    <loc>http://localhost:1313/blog/read/la_saga_de_la_nuit_t1/</loc>
     <lastmod>2026-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/read/azimov-cailloux-dans-le-ciel/</loc>
+    <loc>http://localhost:1313/blog/read/azimov-cailloux-dans-le-ciel/</loc>
     <lastmod>2026-02-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/read/fils-de-brume-3/</loc>
+    <loc>http://localhost:1313/blog/read/fils-de-brume-3/</loc>
     <lastmod>2026-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/read/dungeon-crawler-carl-4/</loc>
+    <loc>http://localhost:1313/blog/read/dungeon-crawler-carl-4/</loc>
     <lastmod>2026-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/read/fils-de-brume-2/</loc>
+    <loc>http://localhost:1313/blog/read/fils-de-brume-2/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/read/dungeon-crawler-carl-3/</loc>
+    <loc>http://localhost:1313/blog/read/dungeon-crawler-carl-3/</loc>
     <lastmod>2025-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/read/cadavre_exquis/</loc>
+    <loc>http://localhost:1313/blog/read/cadavre_exquis/</loc>
     <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/read/dungeon-crawler-carl-2/</loc>
+    <loc>http://localhost:1313/blog/read/dungeon-crawler-carl-2/</loc>
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/read/fils-de-brume-1/</loc>
+    <loc>http://localhost:1313/blog/read/fils-de-brume-1/</loc>
     <lastmod>2025-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/read/dungeon-crawler-carl-1/</loc>
+    <loc>http://localhost:1313/blog/read/dungeon-crawler-carl-1/</loc>
     <lastmod>2025-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/haiku/</loc>
+    <loc>http://localhost:1313/blog/tags/haiku/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/writing/haiku_japon/</loc>
+    <loc>http://localhost:1313/blog/writing/haiku_japon/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/japon/</loc>
+    <loc>http://localhost:1313/blog/tags/japon/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/tags/voyage/</loc>
+    <loc>http://localhost:1313/blog/tags/voyage/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/dev/</loc>
+    <loc>http://localhost:1313/blog/dev/</loc>
     <lastmod>2025-09-23T23:42:04+02:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/read/</loc>
+    <loc>http://localhost:1313/blog/read/</loc>
     <lastmod>2025-09-23T23:42:04+02:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/welshie/</loc>
+    <loc>http://localhost:1313/blog/welshie/</loc>
     <lastmod>2025-09-23T23:42:04+02:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/writing/</loc>
+    <loc>http://localhost:1313/blog/writing/</loc>
     <lastmod>2025-09-23T23:40:53+02:00</lastmod>
   </url><url>
-    <loc>https://universemul.github.io/blog/writing/au_dela_du_silence/</loc>
+    <loc>http://localhost:1313/blog/writing/au_dela_du_silence/</loc>
     <lastmod>2025-09-23T00:00:00+00:00</lastmod>
   </url>
 </urlset>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Japon on David Barthelemy</title>
-    <link>https://universemul.github.io/blog/tags/japon/</link>
+    <link>http://localhost:1313/blog/tags/japon/</link>
     <description>Recent content in Japon on David Barthelemy</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://universemul.github.io/blog/tags/japon/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/japon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Haïku de mon voyage au Japon</title>
-      <link>https://universemul.github.io/blog/writing/haiku_japon/</link>
+      <link>http://localhost:1313/blog/writing/haiku_japon/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://universemul.github.io/blog/writing/haiku_japon/</guid>
+      <guid>http://localhost:1313/blog/writing/haiku_japon/</guid>
       <description>Un cycle de 7 haïkus qui presente mon voyage au Japon de Septembre 2025</description>
     </item>
   </channel>
