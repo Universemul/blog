@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fr"
+  dir="ltr">
+
+<head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<link rel="icon" type="image/ico" href="http://localhost:1313/blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/blog/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:1313/blog/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/blog/apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+
+
+<title>
+    
+    Dans les coulisses du crawler TMDB de Welshie | David Barthelemy
+    
+</title>
+
+<link rel="canonical" href="http://localhost:1313/blog/dev/welshie-tmdb-crawler/"/>
+
+<meta property="og:url" content="http://localhost:1313/blog/dev/welshie-tmdb-crawler/">
+  <meta property="og:site_name" content="David Barthelemy">
+  <meta property="og:title" content="Dans les coulisses du crawler TMDB de Welshie">
+  <meta property="og:description" content="Exploration technique du crawler asynchrone développé en Python/Django pour importer efficacement des centaines de milliers de films et séries depuis TMDB.">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="dev">
+    <meta property="article:published_time" content="2026-06-21T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-06-21T00:00:00+00:00">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Django">
+    <meta property="article:tag" content="Crawler">
+    <meta property="article:tag" content="Asyncio">
+    <meta property="article:tag" content="Tmdb">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/blog/assets/combined.min.619f32e4c348e834c53d8e14d9f1a49ed9e3b058c8a2c928f2cfdf8160d837b4.css" media="all">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body class="dark">
+
+  <div class="content">
+    <header>
+      
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">
+        <a href="http://localhost:1313/blog/">David Barthelemy</a>
+    </h1>
+
+    <div class="header-menu">
+        
+
+        
+        
+
+        <p
+            class="small ">
+            <a href="/blog" >
+                /Home
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/blog/writing/" >
+                /Ecriture
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/blog/dev" >
+                /Dev
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/blog/read" >
+                /Lecture
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/blog/photo" >
+                /Photo
+            </a>
+        </p>
+        
+        
+    </div>
+
+    
+
+</div>
+
+    </header>
+
+    <main class="main">
+      
+
+
+
+
+<div class="breadcrumbs"><a href="/blog/">~</a><span class="breadcrumbs-separator">/</span><a href="/blog/dev/">Dev</a><span class="breadcrumbs-separator">/</span>
+        <a href="/blog/dev/welshie-tmdb-crawler/">Dans les coulisses du crawler TMDB de Welshie</a></div>
+
+
+<div >
+  <article>
+    <header class="single-intro-container">
+        
+        <h1 class="single-title">Dans les coulisses du crawler TMDB de Welshie</h1>
+        <p class="single-summary">Exploration technique du crawler asynchrone développé en Python/Django pour importer efficacement des centaines de milliers de films et séries depuis TMDB.</p>
+        
+        <div class="single-subsummary">
+          
+          <div>
+            
+            <p class="single-date">
+              <time datetime="2026-06-21T00:00:00&#43;00:00">21 juin 2026</time>
+            </p>
+          </div>
+        </div>
+        
+    </header>
+    
+    <div class="single-content">
+      <p>Alimenter une base de données de suivi de médias nécessite de récupérer un catalogue gigantesque. <strong>The Movie Database (TMDB)</strong> est la référence, mais importer plus de 900 000 films et séries via des requêtes HTTP classiques peut prendre plusieurs jours.</p>
+<p>Pour Welshie, j&rsquo;ai développé un crawler asynchrone en Python exploitant <code>asyncio</code> pour réaliser cette tâche en quelques heures seulement.</p>
+<p>Voici comment il fonctionne sous le capot.</p>
+<hr>
+<h2 class="heading" id="le-défi--le-volume-de-données">
+  Le Défi : Le Volume de Données
+  <a class="anchor" href="#le-d%c3%a9fi--le-volume-de-donn%c3%a9es">#</a>
+</h2>
+<p>Chaque jour, TMDB génère des fichiers d&rsquo;export contenant les identifiants actifs de leur base de données.</p>
+<ul>
+<li>Un fichier d&rsquo;export de films pèse environ 25 Mo compressé et contient des centaines de milliers de lignes au format JSON.</li>
+<li>Faire 900 000 requêtes HTTP de manière séquentielle (l&rsquo;une après l&rsquo;autre) à raison de 50ms par requête prendrait environ <strong>12,5 heures</strong>.</li>
+<li>En cas de latence réseau, ce temps peut doubler ou tripler.</li>
+</ul>
+<hr>
+<h2 class="heading" id="lapproche-en-3-étapes-de-welshie">
+  L&rsquo;Approche en 3 Étapes de Welshie
+  <a class="anchor" href="#lapproche-en-3-%c3%a9tapes-de-welshie">#</a>
+</h2>
+<p>Le crawler de Welshie (implémenté dans <code>MediaCrawler</code>) résout ce problème en combinant téléchargement de fichiers plats, filtrage en mémoire et requêtes asynchrones groupées.</p>
+<h3 class="heading" id="1-extraction-des-identifiants-quotidiens">
+  1. Extraction des Identifiants Quotidiens
+  <a class="anchor" href="#1-extraction-des-identifiants-quotidiens">#</a>
+</h3>
+<p>Plutôt que de parcourir l&rsquo;API de TMDB à l&rsquo;aveugle, nous téléchargeons directement leur export quotidien compressé <code>.json.gz</code> :</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>BASE_MOVIE_EXPORT_URL = <span style="font-style:italic">&#34;https://files.tmdb.org/p/exports/movie_ids_</span><span style="font-weight:bold;font-style:italic">{formatted_date}</span><span style="font-style:italic">.json.gz&#34;</span>
+</span></span></code></pre></div><p>Le script télécharge le fichier GZIP, le décompresse à la volée en mémoire, et extrait tous les identifiants uniques :</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="font-weight:bold">def</span> __download_file(self, base_url, specific_date=<span style="font-weight:bold">None</span>, existing_ids: set = <span style="font-weight:bold">None</span>):
+</span></span><span style="display:flex;"><span>    today = (specific_date <span style="font-weight:bold">or</span> datetime.today()).strftime(<span style="font-style:italic">&#34;%m_</span><span style="font-weight:bold;font-style:italic">%d</span><span style="font-style:italic">_%Y&#34;</span>)
+</span></span><span style="display:flex;"><span>    url = base_url.format(formatted_date=today)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">with</span> requests.session() <span style="font-weight:bold">as</span> session:
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">with</span> session.request(<span style="font-style:italic">&#34;GET&#34;</span>, url) <span style="font-weight:bold">as</span> response:
+</span></span><span style="display:flex;"><span>            response.raise_for_status()
+</span></span><span style="display:flex;"><span>            data = gzip.decompress(response.content.strip()).split(<span style="font-style:italic">b</span><span style="font-style:italic">&#34;</span><span style="font-weight:bold;font-style:italic">\n</span><span style="font-style:italic">&#34;</span>)
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>    ids = self.__get_ids(data, existing_ids)
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> ids
+</span></span></code></pre></div><h3 class="heading" id="2-le-filtrage-intelligent">
+  2. Le Filtrage Intelligent
+  <a class="anchor" href="#2-le-filtrage-intelligent">#</a>
+</h3>
+<p>Pour éviter de requêter inutilement des films déjà présents en base de données, la fonction <code>__get_ids</code> accepte un ensemble (<code>set</code>) d&rsquo;identifiants déjà indexés dans PostgreSQL. La recherche dans un <code>set</code> en Python se fait en complexité temps $O(1)$, ce qui permet un filtrage instantané.</p>
+<h3 class="heading" id="3-les-requêtes-asynchrones-par-lots-batches">
+  3. Les Requêtes Asynchrones Par Lots (Batches)
+  <a class="anchor" href="#3-les-requ%c3%aates-asynchrones-par-lots-batches">#</a>
+</h3>
+<p>C&rsquo;est ici que la magie de l&rsquo;asynchronisme opère. Le goulot d&rsquo;étranglement étant l&rsquo;attente des réponses réseau (I/O Bound), nous utilisons <code>asyncio.gather</code> pour envoyer plusieurs requêtes HTTP simultanément.</p>
+<p>Pour ne pas saturer la mémoire ou être bloqué par les pare-feu de TMDB, les requêtes sont découpées en paquets (ou <em>chunks</em>) de taille fixe (par défaut 40 requêtes simultanées) :</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="font-weight:bold">async</span> <span style="font-weight:bold">def</span> _fetch_medias(
+</span></span><span style="display:flex;"><span>    func_detail,
+</span></span><span style="display:flex;"><span>    media_ids,
+</span></span><span style="display:flex;"><span>    offset,
+</span></span><span style="display:flex;"><span>    limit,
+</span></span><span style="display:flex;"><span>    append_to_response: list[AppendToResponse] = <span style="font-weight:bold">None</span>,
+</span></span><span style="display:flex;"><span>):
+</span></span><span style="display:flex;"><span>    result = 0
+</span></span><span style="display:flex;"><span>    <span style="font-style:italic"># Découpage des identifiants en sous-listes (chunks) de taille &#39;offset&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">for</span> _chunck_media_ids <span style="font-weight:bold">in</span> tqdm(divide_chunks(media_ids, offset)):
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">if</span> limit <span style="font-weight:bold">is</span> <span style="font-weight:bold">not</span> <span style="font-weight:bold">None</span> <span style="font-weight:bold">and</span> limit &lt; result:
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">break</span>
+</span></span><span style="display:flex;"><span>        tasks = []
+</span></span><span style="display:flex;"><span>        <span style="font-style:italic"># Création d&#39;une coroutine pour chaque média du chunk</span>
+</span></span><span style="display:flex;"><span>        [
+</span></span><span style="display:flex;"><span>            tasks.append(func_detail(media_id, append_to_response))
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">for</span> media_id <span style="font-weight:bold">in</span> _chunck_media_ids
+</span></span><span style="display:flex;"><span>        ]
+</span></span><span style="display:flex;"><span>        result += len(tasks)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="font-style:italic"># Exécution simultanée de toutes les requêtes du lot</span>
+</span></span><span style="display:flex;"><span>        r = <span style="font-weight:bold">await</span> asyncio.gather(*tasks, return_exceptions=<span style="font-weight:bold">True</span>)
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">yield</span> r
+</span></span></code></pre></div><p>Chaque lot (yield) est ensuite traité par le service Django pour être persisté dans la base PostgreSQL via des écritures en masse (<em>bulk inserts</em>).</p>
+<hr>
+<h2 class="heading" id="lancer-lacquisition">
+  Lancer l&rsquo;acquisition
+  <a class="anchor" href="#lancer-lacquisition">#</a>
+</h2>
+<p>Toute cette logique est encapsulée dans des commandes de gestion personnalisées de Django (<code>manage.py</code>). Pour lancer l&rsquo;importation de manière sécurisée en limitant le nombre d&rsquo;entrées lors des tests :</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="font-style:italic"># Se connecter à l&#39;environnement virtuel et lancer la migration</span>
+</span></span><span style="display:flex;"><span>./manage.py migrate
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic"># Récupérer les genres et plateformes</span>
+</span></span><span style="display:flex;"><span>./manage.py fetch_genres
+</span></span><span style="display:flex;"><span>./manage.py fetch_watch_providers
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic"># Lancer le crawler sur les 500 premiers films du jour</span>
+</span></span><span style="display:flex;"><span>./manage.py fetch_daily_movies --limit 500
+</span></span></code></pre></div><h2 class="heading" id="bilan">
+  Bilan
+  <a class="anchor" href="#bilan">#</a>
+</h2>
+<p>Grâce à cette architecture asynchrone écrite en Python 3.13, Welshie est capable d&rsquo;ingérer et de maintenir à jour des centaines de milliers de fiches de films et séries avec une vitesse de traitement optimale et une consommation de ressources maîtrisée.</p>
+
+    </div>
+  </article>
+
+  
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flexnowrap">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/blog/dev/welshie-architecture/">
+                        L&#39;architecture de Welshie
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </main>
+  </div>
+
+  
+  
+
+
+
+
+
+    
+
+
+
+
+  <footer>
+    
+
+
+  </footer>
+
+  
+</body>
+
+<script src="/blog/js/theme-switch.js"></script>
+<script defer src="/blog/js/copy-code.js"></script>
+</html>

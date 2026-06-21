@@ -15,7 +15,7 @@ colorPalette = 'default'
 hideHeader = false
 
 homeIntroTitle = 'Hello!'
-homeIntroContent = "Entre écriture de code, écriture d'histoires et astrophotographie, ce blog est mon espace d'expérimentation. J'y partage mes projets [dev](/blog/dev), mon parcours créatif entre [écrits](/blog/writing) et [lectures](/blog/read), ainsi que mes captures du ciel en [photo](/blog/photo)."
+homeIntroContent = "Entre écriture de code, écriture d'histoires et astrophotographie, ce blog est mon espace d'expérimentation. J'y partage mes projets [dev](/blog/dev) (notamment mon application [Welshie](https://www.welshie.fr/)), mon parcours créatif entre [écrits](/blog/writing) et [lectures](/blog/read), ainsi que mes captures du ciel en [photo](/blog/photo)."
 
 singleDateFormat = '2 Jan 2006'
 

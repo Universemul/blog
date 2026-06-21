@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architecture on David Barthelemy</title>
+    <link>https://universemul.github.io/blog/tags/architecture/</link>
+    <description>Recent content in Architecture on David Barthelemy</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://universemul.github.io/blog/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>L&#39;architecture de Welshie : Code, Données et Ciel Étoilé</title>
+      <link>https://universemul.github.io/blog/dev/welshie-architecture/</link>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://universemul.github.io/blog/dev/welshie-architecture/</guid>
+      <description>Présentation des choix techniques derrière Welshie, une application mobile de suivi de médias construite avec React Native/Expo, Django et Docker.</description>
+    </item>
+  </channel>
+</rss>

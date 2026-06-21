@@ -6,26 +6,89 @@
     <description>Recent content in Tags on David Barthelemy</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://universemul.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture</title>
+      <link>https://universemul.github.io/blog/tags/architecture/</link>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://universemul.github.io/blog/tags/architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Asyncio</title>
+      <link>https://universemul.github.io/blog/tags/asyncio/</link>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://universemul.github.io/blog/tags/asyncio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crawler</title>
+      <link>https://universemul.github.io/blog/tags/crawler/</link>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://universemul.github.io/blog/tags/crawler/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Django</title>
+      <link>https://universemul.github.io/blog/tags/django/</link>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://universemul.github.io/blog/tags/django/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://universemul.github.io/blog/tags/docker/</link>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://universemul.github.io/blog/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Expo</title>
+      <link>https://universemul.github.io/blog/tags/expo/</link>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://universemul.github.io/blog/tags/expo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://universemul.github.io/blog/tags/python/</link>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://universemul.github.io/blog/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React-Native</title>
+      <link>https://universemul.github.io/blog/tags/react-native/</link>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://universemul.github.io/blog/tags/react-native/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tmdb</title>
+      <link>https://universemul.github.io/blog/tags/tmdb/</link>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://universemul.github.io/blog/tags/tmdb/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Astrophotographie</title>
       <link>https://universemul.github.io/blog/tags/astrophotographie/</link>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://universemul.github.io/blog/tags/astrophotographie/</guid>
       <description></description>
     </item>
     <item>
       <title>Ciel-Profond</title>
       <link>https://universemul.github.io/blog/tags/ciel-profond/</link>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://universemul.github.io/blog/tags/ciel-profond/</guid>
       <description></description>
     </item>
     <item>
       <title>Lune</title>
       <link>https://universemul.github.io/blog/tags/lune/</link>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://universemul.github.io/blog/tags/lune/</guid>
       <description></description>
     </item>
