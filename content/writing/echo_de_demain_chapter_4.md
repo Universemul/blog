@@ -1,7 +1,7 @@
 +++
 date = '2026-06-25'
 title = "L'écho de demain: Chapitre 4"
-summary = "À bord du Prométhée, l'équipage vénère le signal cosmique. Mais dans l'ombre, Horace découvre que le temps lui-même se dérègle."
+summary = "Il était le seul à bord à voir le monde se détraquer. Reste à savoir si c'était le monde, ou lui."
 readTime = true
 autonumber = true
 math = true
