@@ -1,5 +1,5 @@
 +++
-date = '2026-06-04'
+date = '2026-06-24'
 title = "L'écho de demain: Chapitre 2"
 summary = "Six heures pile, heure de bord. Le temps s'étire à bord du Prométhée, mais pour Horace, la précision mécanique reste le dernier rempart contre le chaos."
 readTime = true
