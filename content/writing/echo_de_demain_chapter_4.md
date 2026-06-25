@@ -1,5 +1,5 @@
 +++
-date = '2026-06-26'
+date = '2026-06-25'
 title = "L'écho de demain: Chapitre 4"
 summary = "À bord du Prométhée, l'équipage vénère le signal cosmique. Mais dans l'ombre, Horace découvre que le temps lui-même se dérègle."
 readTime = true
@@ -87,11 +87,3 @@ Il referma le clapet d'une main qui ne tremblait pas, parce qu'il était au-del�
 > *Tac. Tic.*  
 
 Il rangea la montre et se remit au travail.  
-
-
-
-
-
-
-
-
