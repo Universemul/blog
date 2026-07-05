@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/blog/photo/lune-19-06-2026/</guid>
       <description>Astrophotographie de la Lune réalisée dans la nuit du 18 au 19 juin 2026.</description>
     </item>
+    <item>
+      <title>Nébuleuse de l&#39;haltere</title>
+      <link>http://localhost:1313/blog/photo/m27-05-07-2026/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/photo/m27-05-07-2026/</guid>
+      <description>Astrophotographie de la Nébuleuse de l&amp;rsquo;Haltère (M27) réalisée dans la nuit du 05 au 06 juin 2026.</description>
+    </item>
   </channel>
 </rss>

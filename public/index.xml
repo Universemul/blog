@@ -6,8 +6,15 @@
     <description>Recent content in Home on David Barthelemy</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nébuleuse de l&#39;haltere</title>
+      <link>http://localhost:1313/blog/photo/m27-05-07-2026/</link>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/photo/m27-05-07-2026/</guid>
+      <description>Astrophotographie de la Nébuleuse de l&amp;rsquo;Haltère (M27) réalisée dans la nuit du 05 au 06 Juillet 2026.</description>
+    </item>
     <item>
       <title>Dans les coulisses du crawler TMDB de Welshie</title>
       <link>http://localhost:1313/blog/dev/welshie-tmdb-crawler/</link>

@@ -1,13 +1,13 @@
 +++
-date = '2026-05-07'
+date = '2026-07-05'
 title = "Nébuleuse de l'haltere"
-summary = "Astrophotographie de la Nébuleuse de l'Haltère (M27) réalisée dans la nuit du 05 au 06 juin 2026."
+summary = "Astrophotographie de la Nébuleuse de l'Haltère (M27) réalisée dans la nuit du 05 au 06 Juillet 2026."
 tags = ["astrophotographie", "nébuleuse", "ciel-profond"]
 +++
 
 ![La Lune](m27.png)
 
-Une capture de la la Nébuleuse de l'Haltère (M27) réalisée durant la nuit du 05 au 06 juin 2026. 
+Une capture de la la Nébuleuse de l'Haltère (M27) réalisée durant la nuit du 05 au 06 Juillet 2026. 
 
 ### Matériel utilisé :
 * **Monture** : *Sky-Watcher AZ GTO*
