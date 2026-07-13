@@ -69,11 +69,11 @@ Il aurait voulu tout lui expliquer, lui parler à cœur ouvert de ce qu'il resse
 
 Un silence de plomb s'installa. Lyra continuait de le fixer. Dans ses yeux, Horace ne vit pas de la peur, pas encore, mais quelque chose de plus terrible pour lui : de la tendresse inquiète. Ce même regard que l'on porte sur une personne qu'on aime et que l'on voit, impuissant, perdre pied.
 
-— Horace. (Elle posa délicatement sa main sur son bras.) Tu sais ce qu'est le syndrome de l'isolement spatial ? On en parle dans tous les manuels. Le cerveau, privé de jour, de nuit, de saisons, privé de tous ses repères, finit par les fabriquer lui-même. Il voit des motifs là où il n'y en a pas. Il invente des décalages, des incohérences. Ce n'est pas de la folie, c'est de la fatigue. Cela arrive aux meilleurs. Surtout aux meilleurs.
+— Horace. (Elle posa délicatement sa main sur son bras.) Tu sais ce qu'est le syndrome de l'isolement spatial ? On en parle dans tous les manuels. Le cerveau, privé de jour, de nuit, de saisons, de ses repères, finit par les fabriquer lui-même. Il voit des motifs là où il n'y en a pas. Il invente des décalages, des incohérences. Ce n'est pas de la folie, c'est de la fatigue. Cela arrive aux meilleurs. Surtout aux meilleurs.
 
 Et le pire, c'est qu'elle avait peut-être raison.
 
-Horace y pensa toute la nuit. Une part de lui, la plus grande, la plus suppliante, désirait de toutes ses forces que ce fût cela. Un cerveau fatigué. Des repères perdus. Une mécanique nerveuse déréglée par le vide. C'était une explication propre, contenue, humaine. Il serait malade, on le soignerait, et le monde, lui, resterait en ordre.
+Horace y pensa toute la nuit. Une part de lui, la plus grande, désirait de toutes ses forces que ce fût cela. Un cerveau fatigué. Des repères perdus. Une mécanique nerveuse déréglée par le vide. C'était une explication parfaitement humaine. Il serait malade, on le soignerait, et le monde, lui, resterait en ordre.
 
 Il s'aperçut, cette nuit-là, qu'il préférait être fou. Qu'il espérait l'être. Parce que l'autre hypothèse, celle où ses perceptions étaient justes, où c'était le réel et non lui qui se détraquait, cette hypothèse-là était proprement insoutenable.
 
@@ -83,17 +83,17 @@ Plusieurs jours passèrent. Il travaillait seul, comme d'habitude, dans le Sanct
 
 C'est alors qu'il sortit sa montre.
 
-Le geste était machinal, un réflexe d'apaisement. Le seul mécanisme au monde en qui il avait encore une confiance entière. Le petit dieu de laiton qui ne mentait jamais, qui n'avait jamais menti, qui ne dépendait d'aucune ligne de code ni d'aucun capteur. Il fit jouer le clapet et regarda la trotteuse accomplir sa ronde, calme, régulière, éternelle.
+Le geste était machinal, un réflexe d'apaisement. Le seul mécanisme au monde en qui il avait encore une confiance entière. Le petit dieu de laiton qui ne mentait jamais, qui n'avait jamais menti, qui ne dépendait d'aucune ligne de code ni d'aucun capteur. Il fit jouer le clapet et regarda la trotteuse accomplir sa ronde, calme et régulière.
 
 Il la fixa longtemps. C'était reposant. La fine aiguille avançait, cran après cran, seconde après seconde, fidèle au seul ordre qui n'eût jamais trahi Horace : celui du passé vers le futur, de la cause vers l'effet.
 
 Puis la trotteuse recula d'un cran.
 
-Un seul. Une graduation en arrière. Une seconde rendue.
+Un seul.
 
 Et aussitôt, comme si de rien n'était, l'aiguille reprit sa marche en avant, de son trot régulier, vers le futur.
 
-Horace ne respirait plus. Il fixait le cadran, le cœur battant à grands coups désordonnés, et la part rationnelle de son esprit s'élança aussitôt à la rescousse, plus fort que jamais, suppliante. C'était la fatigue de cette journée. Ces dix heures à fixer les écrans. C'était simplement une saccade oculaire. Un de ces ratés de la perception que produit un cerveau à bout de forces, exactement ce que décrivait Lyra. Il n'avait pas vu sa montre reculer. Il avait cru la voir. C'était la fatigue. C'était forcément la fatigue.
+Horace ne respirait plus. Il fixait le cadran, le cœur battant à grands coups désordonnés, et la part rationnelle de son esprit s'élança aussitôt à la rescousse, plus fort que jamais. C'était la fatigue de cette journée. Ces dix heures à fixer les écrans. C'était simplement une saccade oculaire. Un de ces ratés de la perception que produit un cerveau à bout de forces, exactement ce que décrivait Lyra. Il n'avait pas vu sa montre reculer. Il avait cru la voir. C'était la fatigue. C'était forcément la fatigue.
 
 Il s'accrocha à cette idée de toutes ses forces. Il en avait besoin comme d'air. Et pendant une seconde, presque, il y crut.
 
